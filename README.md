@@ -4,17 +4,17 @@
 
 ---
 
-## 🗺️ Arquitetura & Modelagem (UML)
+## 🗺️ Documentações
 
-Mapeamento visual dos fluxos operacionais e da estrutura de dados do ecossistema.
+Documentação do sistema:
 
-### 📐 Estrutura de Classes (DC)
+### 📐 Estrutura de Classes 
 <img src="docs/der-dc.png" width="250" alt="Diagrama de Classes">
 
-### 👤 Casos de Uso (DCU)
+### 👤 Casos de Uso 
 <img src="docs/Diagrama de Casos de Uso.png" width="250" alt="Diagrama de Casos de Uso">
 
-### 🔄 Fluxo de Atividades (DA)
+### 🔄 Fluxo de Atividades 
 <img src="docs/Diagrama de Atividades.png" width="250" alt="Diagrama de Atividades">
 
 ---
@@ -28,18 +28,6 @@ Visualização das telas principais do sistema em funcionamento.
 
 ### Controle Operacional e Histórico de Estadias
 <img src="imagens/1.png" width="550" alt="Tela de Estadias">
-
----
-
-## 💻 Stack Tecnológica
-
-| Segmento | Tecnologia | Escopo / Versão |
-|:---|:---|:---|
-| **Front-end** | HTML5, CSS3, JavaScript (Vanilla) | Interface responsiva e nativa |
-| **Back-end** | Node.js + Express | API RESTful (v18.x ou superior) |
-| **Mapeamento ORM** | Prisma | Persistência de dados (v5.x ou superior) |
-| **Banco de Dados** | SQLite (Ambiente Dev) / PostgreSQL (Produção) | Armazenamento relacional |
-| **Comunicação HTTP**| Fetch API | Integração assíncrona nativa |
 
 ---
 
