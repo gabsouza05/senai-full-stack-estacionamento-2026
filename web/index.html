@@ -1,11 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estacionamento ACME</title>
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <h1>Estacionamento ACME</h1>
+
+    <div class="container">
+
+        <h2>Nova Estadia</h2>
+
+        <form id="formEstadia">
+            <input id="placaEstadia" placeholder="Placa" required>
+            <input id="valorHora" placeholder="Valor Hora" required>
+
+            <button type="submit">Registrar Estadia</button>
+        </form>
+
+        <h2>Histórico de Estadias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Placa</th>
+                    <th>Entrada</th>
+                    <th>Saída</th>
+                    <th>Total</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaEstadias"></tbody>
+        </table>
+
+        <hr>
+
+        <h2>Cadastro de Veículo</h2>
+
+        <form id="formAutomovel">
+            <input id="placa" placeholder="Placa" required>
+            <input id="proprietario" placeholder="Proprietário" required>
+            <input id="tipo" placeholder="Tipo" required>
+            <input id="modelo" placeholder="Modelo" required>
+            <input id="marca" placeholder="Marca" required>
+            <input id="cor" placeholder="Cor (Não obrigatório)">
+            <input id="ano" placeholder="Ano do Veículo">
+            <input id="telefone" placeholder="Telefone" required>
+
+            <button type="submit">Salvar Veículo</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Placa</th>
+                    <th>Proprietário</th>
+                    <th>Modelo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaAutomoveis"></tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
